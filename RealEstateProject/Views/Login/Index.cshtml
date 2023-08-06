@@ -1,0 +1,47 @@
+﻿@using DTO.DTOs.UserDTOs;
+@model ResultUserDTO
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - A Pen by Mohithpoojary</title>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css'>
+    <link rel="stylesheet" href="~/CodePen_Export_QWgrPvp/dist/style.css">
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="container">
+        <div class="screen">
+            <div class="screen__content">
+                <form class="login" method="POST">
+                    <div class="login__field">
+                        <i class="login__icon fas fa-user"></i>
+                        <input type="text" name="Email" class="login__input" placeholder="Email Adresiniz" required="required" />
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-lock"></i>
+                        <input type="password" name="Password" class="login__input" placeholder="Şifre" required="required">
+                        
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <p class=" w3l-register-p">
+                    Henüz Hesabın Yok Mu ?<a href="/Register/Index/" class="register"> Kayıt Ol</a>
+                </p>
+            </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>
+        </div>
+    </div>
+    <!-- partial -->
+
+</body>
+</html>
